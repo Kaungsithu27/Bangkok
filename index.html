@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+   <html lang="my">
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <title>Bangkok Grid</title>
+       <style>
+           .grid-container {
+               display: grid;
+               grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+               gap: 20px;
+               padding: 20px;
+           }
+           .grid-item {
+               padding: 50px;
+               border-radius: 10px;
+               color: white;
+               font-size: 1.2em;
+               text-align: center;
+               font-family: "Pyidaungsu", sans-serif;
+           }
+           .travel { background: #FF6B6B; }
+           .health { background: #4ECDC4; }
+           .education { background: #45B7D1; }
+           .jobs { background: #96CEB4; }
+           .visa { background: #FFEEAD; color: #333; }
+           .property { background: #D4A5A5; }
+       </style>
+   </head>
+   <body>
+       <div class="grid-container">
+           <div class="grid-item travel">ခရီးသွားကား</div>
+           <div class="grid-item health">ကျန်းမာရေး</div>
+           <div class="grid-item education">ပညာရေး</div>
+           <div class="grid-item jobs">အလုပ်အကိုင်</div>
+           <div class="grid-item visa">ဗီဇာ/ပတ်စပို့</div>
+           <div class="grid-item property">အိမ်ခြံမြေ/တိုက်ခန်း</div>
+       </div>
+   </body>
+   </html>
